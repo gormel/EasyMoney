@@ -10,7 +10,7 @@ namespace EasyMoney
 			{
 				var downloader = new Downloader
 				{
-					BotUrl = "https://api.telegram.org/bot212221767:AAEqRf9RIFi1yY-u4YWyXz30NLrZZt-NOBE/getMe"
+					BotUrl = "https://api.telegram.org/bot212221767:AAEqRf9RIFi1yY-u4YWyXz30NLrZZt-NOBE"
 				};
 				downloader.BeginWork().ContinueWith(_ => Console.WriteLine("BeginWork completed"));
 			}
