@@ -7,7 +7,10 @@ namespace EasyMoney
 {
 	public class Downloader
 	{
+		//todo: extract settings to single class
 		public string BotUrl { get; set; }
+		public string MySqlIP { get; set; }
+		public int MySqlPort { get; set; }
 		private HttpClient mClient = new HttpClient();
 
 		public Downloader()
